@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Counter</title>
+    <link rel="stylesheet" type="text/css" href="date.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+<h1>Day Counter</h1>
+</header>
+<main>
+<form action='#'>
+  <h2>What is your favourite day?</h2>
+  <input type="date" id='day' value=''>
+<input type="button" value="Try" onclick="DifferenceInDays()" >
+<input type="button" value="Just business days" onclick="myWeek()">
+</form>
+<span>
+  The program counts how many days there is left. </br> You have
+  <p id="demo"></p> days left.</span>
+    </main>
+    <footer>
+      Days to my Birthday:
+        <p id="demo2"></p>
+      </footer>
+<script type='text/javascript' src='date.js'></script>
+    </body>
+  </html>
